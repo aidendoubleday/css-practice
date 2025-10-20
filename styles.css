@@ -1,13 +1,34 @@
 body {
-    background-color: rgb(40, 40, 40);
+    background-color:rgb(41, 39, 39);
 }
 
 h1 {
     text-align: center;
-    color: white;
+    color:white;
     font-size: 60px;
 }
 /* Start here by styling the main div section */
 .main {
-    
+    background-color:beige;
+    padding: 280px;
+    margin: 55px;
+}
+
+.square {
+    font-size: 70px;
+}
+
+.square:hover {
+    background-color:rgba(233, 127, 13, 0.902);
+    padding: 10px;
+    border-radius: 35%;
+}
+
+.square:active:after {
+    content: "☠️"
+}
+
+.square:before {
+    content: "??"
+    text-align: right;
 }
